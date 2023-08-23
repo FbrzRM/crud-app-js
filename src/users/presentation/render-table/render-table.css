@@ -1,0 +1,23 @@
+table {
+    background-color: rgba(0 0 0 / 0.25);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+td{
+    padding: 5px;
+}
+
+.actions{
+    padding: 1px;
+    color: #616161;
+}
+
+.actions--select:hover{
+    filter: drop-shadow(0 0 0.5em #1e30f7aa);
+}
+
+.actions--delete:hover{
+    filter: drop-shadow(0 0 0.5em #f71e1eaa);
+    color: #f71e1eaa;
+}
